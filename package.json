@@ -1,0 +1,41 @@
+{
+    "name": "directus-extension-drawer-notice",
+    "version": "1.0.0",
+    "description": "A notice field that is only visible in the drawer",
+    "license": "GPL-3.0",
+    "author": "formfcw",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/formfcw/directus-extension-drawer-notice"
+    },
+    "icon": "extension",
+    "keywords": [
+        "directus",
+        "directus-extension",
+        "directus-custom-interface",
+        "notice",
+        "drawer"
+    ],
+    "type": "module",
+    "directus:extension": {
+        "type": "interface",
+        "path": "dist/index.js",
+        "source": "src/index.ts",
+        "host": "^10.1.11"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build-publish": "directus-extension build && npm publish",
+        "build": "directus-extension build",
+        "dev": "directus-extension build -w --no-minify",
+        "link": "directus-extension link"
+    },
+    "devDependencies": {
+        "@directus/extensions-sdk": "10.1.11",
+        "typescript": "^5.2.2",
+        "vue": "^3.3.5",
+        "vue-i18n": "^9.5.0"
+    }
+}
