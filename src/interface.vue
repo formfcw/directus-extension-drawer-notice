@@ -56,10 +56,10 @@
 
 <style scoped>
     :deep(a) {
-        color: var(--primary);
+        color: var(--theme--primary, var(--primary));
     }
 
     :deep(a:hover) {
-        color: var(--primary-125);
+        color: var(--theme--primary-accent, var(--primary-125));
     }
 </style>
