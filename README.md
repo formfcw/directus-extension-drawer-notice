@@ -1,9 +1,8 @@
+[[Official Installation Guide](https://docs.directus.io/extensions/installing-extensions.html)] [[NPM package](https://www.npmjs.com/package/directus-extension-drawer-notice)]
+
 # Drawer Notice Interface for Directus
 
 A notice field that is only visible in the drawer.
-
--   Installation: [Official Guide](https://docs.directus.io/extensions/installing-extensions.html)
--   NPM package: [directus-extension-drawer-notice](https://www.npmjs.com/package/directus-extension-drawer-notice)
 
 ## Use Case
 
