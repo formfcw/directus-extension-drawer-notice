@@ -1,6 +1,6 @@
 {
     "name": "directus-extension-drawer-notice",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A notice field that is only visible in the drawer",
     "license": "GPL-3.0",
     "author": {
@@ -11,7 +11,7 @@
         "type": "git",
         "url": "https://github.com/formfcw/directus-extension-drawer-notice"
     },
-    "icon": "extension",
+    "icon": "info",
     "keywords": [
         "directus",
         "directus-extension",
