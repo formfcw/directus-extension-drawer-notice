@@ -1,6 +1,6 @@
 {
     "name": "directus-extension-drawer-notice",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A notice field that is only visible in the drawer",
     "license": "GPL-3.0",
     "author": {
@@ -21,10 +21,10 @@
     ],
     "type": "module",
     "directus:extension": {
+        "host": "^10.0.0 || ^11.0.0",
         "type": "interface",
         "path": "dist/index.js",
-        "source": "src/index.ts",
-        "host": "^10.1.11"
+        "source": "src/index.ts"
     },
     "files": [
         "dist"
@@ -36,9 +36,9 @@
         "link": "directus-extension link"
     },
     "devDependencies": {
-        "@directus/extensions-sdk": "10.1.11",
+        "@directus/extensions-sdk": "^12.0.2",
         "typescript": "^5.2.2",
         "vue": "^3.3.5",
-        "vue-i18n": "^9.5.0"
+        "vue-i18n": "^10.0.1"
     }
 }
